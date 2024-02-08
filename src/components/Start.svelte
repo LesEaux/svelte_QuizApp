@@ -8,16 +8,16 @@
     in:fly={{ x: 200, duration: 200 }}
     out:fly={{ x: -200, duration: 200 }}
   >
-    <h2>Challenge du Quiz de Codage</h2>
+    <h2>Challenge du Quizz de Formule 1</h2>
     <p>
-      Essayez de répondre aux questions liées au code dans la limite de temps.
+      Essayez de répondre aux questions liées à la formule 1 dans la limite de temps.
     </p>
     <p>
       Gardez à l'esprit que des réponses incorrectes pénaliseront votre
       score/temps de dix secondes !
     </p>
 
-    <button on:click>Start</button>
+    <button on:click>Commencer le quizz</button>
   </div>
 </section>
 

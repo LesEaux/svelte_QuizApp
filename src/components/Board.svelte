@@ -14,7 +14,7 @@
   {#if scores.length === 0}
     <p>Pas de scores</p>
   {:else}
-    <h3>tableaux des Scores</h3>
+    <h3>Tableaux des Scores</h3>
     {#each scores as score (score.name)}
       <p><b>{score.name}:</b> {score.score}</p>
     {/each}
